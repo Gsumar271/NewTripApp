@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="notepad_paper">#EEF8E0A0</color>
+    <color name="notepad_lines">#FF0000FF</color>
+    <color name="notepad_margin">#90FF0000</color>
+    <color name="notepad_text">#AA0000FF</color>
+    <color name="orange">#FFFF8800</color>
+    <color name="tasklist_backgraound">#E7F1CA</color>
+
+    <color name="notelist_textcolor">#343434</color>
+    <color name="duedate_color">#10bcc9</color>
+
+    <color name="calendar_background">#b3e5fc</color>
+    <color name="details_background">#F8F6B7</color>
+    <color name="details_contentColor">#FCE7CC</color>
+</resources>

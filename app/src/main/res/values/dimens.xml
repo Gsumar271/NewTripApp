@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="notepad_margin">30dp</dimen>
+    <dimen name="week_top_margin">212px</dimen> <!-- 54, 14 -->
+    <dimen name="week_left_margin">59px</dimen> <!-- 30, 20 -->
+    <dimen name="cell_width">70px</dimen><!--78 -->
+    <dimen name="cell_height">68px</dimen><!--123 -->
+    <dimen name="cell_margin_top">232px</dimen><!--112 -->
+    <dimen name="cell_margin_left">129px</dimen><!--59 -->
+    <dimen name="cell_text_size">26px</dimen>
+    <dimen name="diameter">48dp</dimen>
+    <dimen name="elevation_low">1dp</dimen>
+    <dimen name="elevation_high">4dp</dimen>
+    <dimen name="add_button_margin">16dp</dimen>
+    <dimen name="round_button_diameter">10dp</dimen>
+</resources>

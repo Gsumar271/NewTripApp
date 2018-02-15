@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/details_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/from_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/pickFromTime"/>
+
+        <Button
+            android:id="@+id/from_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/setdate"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/to_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/pickToTime"/>
+
+        <Button
+            android:id="@+id/to_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/setdate"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/priority_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/border_lines"
+        android:text="@string/eventText"
+        android:textStyle="bold"/>
+
+
+
+    <EditText
+        android:id="@+id/content_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/details_contentColor"
+        android:maxHeight="200dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/content"
+        />
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/addMap"
+        />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/okButton"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_light"
+            android:text="@android:string/ok"
+            />
+        <Button android:id="@+id/cancelButton"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_red_light"
+            android:text="@android:string/cancel"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginTop="12dp"
+        android:text="@string/delete"
+        />
+
+
+</LinearLayout>

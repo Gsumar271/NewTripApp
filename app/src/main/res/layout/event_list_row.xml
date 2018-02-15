@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tasklist_backgraound"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="5dip"
+    android:weightSum="1"
+    >
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="10dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        />
+
+    <Button
+        android:id="@+id/timeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/list_image"
+        android:layout_toEndOf="@+id/list_image"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:maxWidth="30dp"
+        android:text="subTask" />
+
+
+    <!-- Note -->
+
+    <TextView
+        android:id="@+id/eventList"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:textColor="@color/notelist_textcolor"
+        android:textSize="20sp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@id/timeButton"
+        android:layout_toEndOf="@+id/timeButton"
+
+
+        />
+
+</RelativeLayout>
+
+    <!-- android:layout_height="70dp" -->
